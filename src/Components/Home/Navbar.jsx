@@ -65,6 +65,7 @@ const Navbar = () => {
             Welcome
           </h5>
           <button
+            id='offcanvas_close'
             type="button"
             className="btn-close"
             data-bs-dismiss="offcanvas"

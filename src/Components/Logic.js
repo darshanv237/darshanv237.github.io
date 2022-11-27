@@ -5,5 +5,7 @@ export function handleClick(event){
     if(prev_id!=' ')
       document.getElementById(prev_id).classList.remove('link_active');
     prev_id = curr_id
+    if(curr_id.includes('_active'))
+      document.getElementById('offcanvas_close').click();
     }
 
