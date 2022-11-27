@@ -5,7 +5,7 @@ const Socialicons = ()=>{
         <div className="p-2 pb-2">
             {pData[0].icons.map((icons)=>{
                 return(
-                        <a href={icons[1]} key={'icon'+icons[2]} id='social'><i className={icons[0]+' mx-1 px-2'} id='socialicons'></i></a>)
+                    <a href={icons[1]} key={'icon'+icons[2]} id='social'><i className={icons[0]+' mx-1 px-2'} id='socialicons'></i></a>)
             })}
         </div>
     );
