@@ -31,8 +31,8 @@ const Banner = ()=>{
                 <div className="d-flex flex-row justify-content-center">
                     <Socialicons></Socialicons>
                 </div>
-                <div className="d-flex flex-row justify-content-center">
-                    <div className="px-2 pt-2 text-white" id='header'>Coding Profiles:</div>
+                <div className="d-flex flex-row justify-content-center pt-2">
+                    <div className=" pt-2 text-white" id='header'>Coding Profiles:</div>
                     {pdata[0].profiles.map((profiles)=>{
                         return(<div className="px-2 pt-2 text-white" id='header'><a href={profiles.link} className="nav-link text-white">{profiles.name}</a></div>)
                     })}

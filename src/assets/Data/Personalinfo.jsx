@@ -36,7 +36,7 @@ const pdata = [
                 {
                     role:"Consultant",
                     Company:"Apsolut Software Pvt LTD",
-                    experience: "2021-Prent",
+                    experience: "2021-Present",
                     description:[
                     "Developed a package-based solution for the integrating of suppliers, purchase orders, and bi-directional invoices from the SAP ECC system with the customer tool.",
                     "Configuration of CIG middleware connection between the Ariba and SAP S4Hana system.",
