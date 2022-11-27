@@ -11,9 +11,8 @@ const pdata = [
         quote: "Curiosity to know my boundaries and break out of them keeps me motivated and makes me Enthusiastic to learn new technolgies and build products ",
         roles: ["Web Developer","Programmer","Developer","FreeLancer"],
         icons: [['fa-brands fa-linkedin-in fa-2x p-2',"https://www.linkedin.com/in/darshan-v-39103a195/",1]
-                ,['fa-brands fa-github fa-2x p-2',"https://github.com/darshananimus",2]
+                ,['fa-brands fa-github fa-2x p-2',"https://github.com/darshanv237",2]
                 ,['fa-brands fa-facebook fa-2x p-2',"facebook.com",3]],
-        links: ["https://www.linkedin.com/in/darshan-v-39103a195/","https://github.com/darshanv237","facebook.com"],
         education: [["B.E.( Computer Science )","K.N.S Institute of Technology",'CGPA: 8.2','2021',1],
                     ["P.U.C","Acharya PU College",'Percentage: 82.33','2017',2],
                     ["SSLC","Seshadripuram High School",'Percentage: 83.34','2015',3]],
