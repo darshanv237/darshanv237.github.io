@@ -13,7 +13,7 @@ const pdata = [
         icons: [['fa-brands fa-linkedin-in fa-2x p-2',"https://www.linkedin.com/in/darshan-v-39103a195/",1]
                 ,['fa-brands fa-github fa-2x p-2',"https://github.com/darshanv237",2]
                 ,['fa-brands fa-facebook fa-2x p-2',"facebook.com",3]],
-        education: [["B.E.( Computer Science )","K.N.S Institute of Technology",'CGPA: 8.2','2021',1],
+        education: [["B.E.(Computer Science)","K.N.S Institute of Technology",'CGPA: 8.2','2021',1],
                     ["P.U.C","Acharya PU College",'Percentage: 82.33','2017',2],
                     ["SSLC","Seshadripuram High School",'Percentage: 83.34','2015',3]],
         skills: [{

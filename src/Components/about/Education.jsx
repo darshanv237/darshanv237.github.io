@@ -15,9 +15,11 @@ const Education=()=>{
                                     return(
                                         <div className="col" data-aos="fade-up">
                                             <div className="card h-100  bg-dark mx-2">
-                                                <h5 className="card-header p-2">
-                                                    <span className="ed_icon p-2"><i className="fa-solid fa-user-graduate fa-1x p-2" id="ed_icons"></i></span>
-                                                    {education[0]}
+                                                <h5 className="card-header">
+                                                <div className="d-flex flex-row">
+                                                    <div><span className="ed_icon py-4"><i className="fa-solid fa-user-graduate fa-1x p-2" id="ed_icons"></i></span></div>
+                                                    <div className='px-2 c_title'>{education[0]}</div>
+                                                </div>
                                                 </h5>
                                                 <div className="card-body" key={education[3]}>
                                                     <div className="education-item h-100 text-white px-2" key={'education'+education[4]}>

@@ -15,9 +15,11 @@ const Work=()=>{
                         return(
                             <div className="cols-12" data-aos="fade-up">
                                 <div className="card h-100  bg-dark mx-2">
-                                    <h5 className="card-header p-2">
-                                        <span className="ed_icon p-2"><i className="fa-solid fa-briefcase fa-1x p-2" id="ed_icons"></i></span>
-                                        {work.role}
+                                    <h5 className="card-header py-2">
+                                        <div className="d-flex flex-row">
+                                            <div><span className="ed_icon py-4"><i className="fa-solid fa-briefcase fa-1x p-2" id="ed_icons"></i></span></div>
+                                            <div className='px-2 c_title'>{work.role}</div>
+                                        </div>
                                     </h5>
                                     <div className="card-body" key={work+"role"}>
                                         <div className="education-item h-100 text-white px-2" key={'exp_'+work}>
