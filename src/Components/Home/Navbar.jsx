@@ -11,7 +11,7 @@ const Navbar = () => {
       >
         <div className="container-fluid d-flex">
           <HashLink
-            className="navbar-brand d-none d-lg-block text-white"
+            className="navbar-brand px-2 d-none d-lg-block text-white"
             id="nav_home"
             role="tab"
             aria-selected="true"
