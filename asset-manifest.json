@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.53c9aa91.css",
-    "main.js": "/static/js/main.a7c46fac.js",
+    "main.css": "/static/css/main.27f91aa3.css",
+    "main.js": "/static/js/main.c6ec86a2.js",
+    "static/media/coder.png": "/static/media/coder.374bab15117ed6ca5570.png",
     "static/media/bot.jpg": "/static/media/bot.287bf6da146d64f6b192.jpg",
+    "static/media/GeeksforGeeks.png": "/static/media/GeeksforGeeks.f1afd6d2449fb233cafc.png",
     "static/media/Darshan.jpeg": "/static/media/Darshan.6705a9be7a11c191d8a4.jpeg",
     "static/media/mern.png": "/static/media/mern.88c11749963e60be4b49.png",
     "static/media/java.png": "/static/media/java.f4ea765878d6e68edefd.png",
@@ -14,13 +16,14 @@
     "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.268c4375260420e8d982.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/leetcode.webp": "/static/media/leetcode.b0b6d8d41898b188dc5e.webp",
     "static/media/sapabap.jpg": "/static/media/sapabap.0ae8f84d091b8f2d2d63.jpg",
     "index.html": "/index.html",
-    "main.53c9aa91.css.map": "/static/css/main.53c9aa91.css.map",
-    "main.a7c46fac.js.map": "/static/js/main.a7c46fac.js.map"
+    "main.27f91aa3.css.map": "/static/css/main.27f91aa3.css.map",
+    "main.c6ec86a2.js.map": "/static/js/main.c6ec86a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.53c9aa91.css",
-    "static/js/main.a7c46fac.js"
+    "static/css/main.27f91aa3.css",
+    "static/js/main.c6ec86a2.js"
   ]
 }
