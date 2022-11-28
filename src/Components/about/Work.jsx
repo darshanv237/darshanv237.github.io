@@ -14,11 +14,11 @@ const Work=()=>{
                     {pData[0].work.map((work)=>{
                         return(
                             <div className="col-lg-6 col-md-6 col-sm-12 my-2" data-aos="fade-up" key={work.role}>
-                                <div className="card h-100  bg-dark mx-2 my-sm-2" key={"card_"+work.role}>
+                                <div className="card h-100  bg-dark mx-2 my-sm-2" >
                                     <h5 className="card-header py-2" key={"card_header"+work.role}>
                                         <div className="d-flex flex-row" key={"card_flex"+work.role}>
                                             <div><span className="ed_icon py-4"><i className="fa-solid fa-briefcase fa-1x p-2" id="ed_icons"></i></span></div>
-                                            <div className='px-2 c_title'>{"card_role"+work.role}</div>
+                                            <div className='px-2 c_title'>{work.role}</div>
                                         </div>
                                     </h5>
                                     <div className="card-body" key={work+"role"}>
