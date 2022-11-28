@@ -7,13 +7,13 @@ import Items from '../../assets/Data/Items'
 const Education=()=>{
     return( 
         <section id="education" className="education my-2">
-            {/* <div className="container-fluid mx-4"> */}
-                <div className="row mx-4">
+            <div className="container-fluid">
+                <div className="row mx-lg-2 mx-sm-1">
                 <h3 className="education-title mt-2">Education</h3>                        
-                        <OwlCarousel className="owl-theme" responsive={Items}> 
+                        {/* <OwlCarousel className="owl-theme" responsive={Items}>  */}
                                 {pData[0].education.map((education)=>{
                                     return(
-                                        <div className="col" data-aos="fade-up">
+                                        <div className="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-up" key={education[0]}>
                                             <div className="card h-100  bg-dark mx-2">
                                                 <h5 className="card-header">
                                                 <div className="d-flex flex-row">
@@ -37,9 +37,9 @@ const Education=()=>{
                                 {/* <h4>Master of Fine Arts &amp; Graphic Design</h4>
                                 <h5>2015 - 2016</h5>
                                  */}
-                        </OwlCarousel>
+                        {/* </OwlCarousel> */}
                     </div>
-                {/* </div> */}
+                </div>
         </section>
     )
 }

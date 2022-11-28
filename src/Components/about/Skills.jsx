@@ -9,12 +9,13 @@ import Items from '../../assets/Data/Items';
 const Skills=()=>{
     return(
         <section id='skills' className='education'>
-        <div className="row mx-4" >
+            <div className="container-fluid">
+        <div className="row mx-lg-2 mx-sm-2" >
         <h3 className="education-title my-2">Skills</h3>
-            <OwlCarousel className="owl-theme" loop responsive={Items}>
+            {/* <OwlCarousel className="owl-theme" loop responsive={Items}> */}
                 {pData[0].skills.map((skills)=>{
                     return(
-                    <div className="col">
+                    <div className="col-lg-4 col-sm-6 my-2" key={skills.name}>
                     <div className="card h-100 mx-2 bg-dark" style={{borderRadius: 1+'rem'}} id="card"  key={skills.name+skills.key}>
                         <div className="card-body" key={skills.name+skills.key}>
                             <h5 className="ctitle text-center " key={skills.name+skills.key}>{skills.name}</h5>
@@ -39,9 +40,9 @@ const Skills=()=>{
                             {/* <h5 className="ctitle text-center">Other Skills</h5>
                             <div className="d-flex flex-row justify-content-center bd-highlight mb-3 " id="sapicons">
                             </div> */}
-            </OwlCarousel>
+            {/* </OwlCarousel> */}
             </div>
-
+            </div>
         </section>
     )
 }

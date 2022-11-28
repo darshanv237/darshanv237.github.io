@@ -8,12 +8,12 @@ const Achievements=()=>{
     return(
         <section id="achievements" className="education my-2">
             <div className="container-fluid">
-            <div className="row mx-2">
+            <div className="row mx-lg-2 mx-sm-1">
                 <h3 className="education-title mt-2">Achievements</h3>
-                <OwlCarousel className="owl-theme" responsive={Items}> 
+                {/* <OwlCarousel className="owl-theme" responsive={Items}>  */}
                     {pData[0].awards.map((awards)=>{
                         return(
-                            <div className="cols-12" data-aos="fade-up">
+                            <div className="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-up" key={awards.name}>
                                 <div className="card h-100  bg-dark mx-2" >
                                     <h5 className="card-header">
                                         <div className="d-flex flex-row">
@@ -31,7 +31,7 @@ const Achievements=()=>{
                             </div>   
                         )
                     })}
-                </OwlCarousel>
+                {/* </OwlCarousel> */}
                 </div>
             </div>
         </section>

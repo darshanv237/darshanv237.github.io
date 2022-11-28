@@ -8,12 +8,12 @@ const Projects=()=>{
     return(
         <section id="projects" className="education my-2">
             <div className="container-fluid">
-            <div className="row mx-2">
+            <div className="row mx-lg-2 mx-sm-1">
                 <h3 className="education-title mt-2">Projects</h3>
-                <OwlCarousel className="owl-theme" responsive={Items}> 
+                {/* <OwlCarousel className="owl-theme" responsive={Items}>  */}
                     {pData[0].projects.map((projects)=>{
                         return(
-                            <div className="cols-12" data-aos="fade-up">
+                            <div className="col-lg-4 col-sm-6 my-2" data-aos="fade-up" key={projects.name}>
                                 <div className="card h-100  bg-dark mx-2" >
                                     <img src={"../../assets/"+projects.image} alt="" className="card-img-top" />
                                     <h5 className="card-header p-2">
@@ -30,7 +30,7 @@ const Projects=()=>{
                             </div>   
                         )
                     })}
-                </OwlCarousel>
+                {/* </OwlCarousel> */}
                 </div>
             </div>
         </section>
