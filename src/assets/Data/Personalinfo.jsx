@@ -8,11 +8,12 @@ function importAll(r) {
 const pdata = [
     {
         name: "Darshan.V",
-        quote: "Curiosity to know my boundaries and break out of them keeps me motivated and makes me Enthusiastic to learn new technolgies and build products ",
+        quote: "Curiosity about knowing my limits and a desire to challenge them keeps me motivated, making me enthusiastic about learning new technologies and building products. I have good problem-solving skills. I am also into web development. I am currently exploring new frameworks. ",
+        about_image: require('../coder.png'),
         roles: ["Web Developer","Programmer","Developer","FreeLancer"],
-        icons: [['fa-brands fa-linkedin-in fa-2x p-2',"https://www.linkedin.com/in/darshan-v-39103a195/",1]
-                ,['fa-brands fa-github fa-2x p-2',"https://github.com/darshanv237",2]
-                ,['fa-brands fa-facebook fa-2x p-2',"facebook.com",3]],
+        icons: [['fa-brands fa-linkedin-in fa-1x  p-2',"https://www.linkedin.com/in/darshan-v-39103a195/",1]
+                ,['fa-brands fa-github fa-1x p-2',"https://github.com/darshanv237",2]
+                ,['fa-brands fa-facebook fa-1x  p-2',"facebook.com",3]],
         education: [["B.E.(Computer Science)","K.N.S Institute of Technology",'CGPA: 8.2','2021',1],
                     ["P.U.C","Acharya PU College",'Percentage: 82.33','2017',2],
                     ["SSLC","Seshadripuram High School",'Percentage: 83.34','2015',3]],
@@ -56,12 +57,16 @@ const pdata = [
             ],
             awards:[
                 {
-                    name:"Microsoft Technology Associate Python & JS",
+                    name:"Microsoft Technology Associate Python",
                     description: "Scored above 80%. It was a very insightful learning experience where I learnt the basics of javascript, cross platform application development using cordova,machine learning and data science using python, also worked with Data Visualization and Data Analytics."
                 },
                 {
                     name:"National Level Quiz",
                     description: "Secured an 80% score in a national level quiz competition conducted by BGS Institute of Technology in the C programming language"
+                },
+                {
+                    name:"Microsoft Technology Associate Javascript",
+                    description:"Scored above 80%. It was a very insightful learning experience where I learnt the basics of javascript,cross platform mobile app development and implemented in real time"
                 }
             ],
             projects:[
@@ -77,12 +82,13 @@ const pdata = [
             profiles:[
                 {
                     name:'LeetCode',
-                    link:'https://leetcode.com/darshanv237/'
-                    
+                    link:'https://leetcode.com/darshanv237/',
+                    src: require('../leetcode.webp')
                 },
                 {
                     name:'GeeksForGeeks',
-                    link:'https://auth.geeksforgeeks.org/user/darshanv237'
+                    link:'https://auth.geeksforgeeks.org/user/darshanv237',
+                    src:require('../GeeksforGeeks.png')
                 }]
     }   
 ]

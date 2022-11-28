@@ -17,7 +17,7 @@ const Education=()=>{
                                             <div className="card h-100  bg-dark mx-2">
                                                 <h5 className="card-header">
                                                 <div className="d-flex flex-row">
-                                                    <div><span className="ed_icon py-4"><i className="fa-solid fa-user-graduate fa-1x p-2" id="ed_icons"></i></span></div>
+                                                    <div className='my-auto'><span className="ed_icon py-4"><i className="fa-solid fa-user-graduate fa-1x p-2" id="ed_icons"></i></span></div>
                                                     <div className='px-2 c_title'>{education[0]}</div>
                                                 </div>
                                                 </h5>

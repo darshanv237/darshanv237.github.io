@@ -17,7 +17,7 @@ const Work=()=>{
                                 <div className="card h-100  bg-dark mx-2 my-sm-2" >
                                     <h5 className="card-header py-2" key={"card_header"+work.role}>
                                         <div className="d-flex flex-row" key={"card_flex"+work.role}>
-                                            <div><span className="ed_icon py-4"><i className="fa-solid fa-briefcase fa-1x p-2" id="ed_icons"></i></span></div>
+                                            <div className='my-auto'><span className="ed_icon py-4"><i className="fa-solid fa-briefcase fa-1x p-2" id="ed_icons"></i></span></div>
                                             <div className='px-2 c_title'>{work.role}</div>
                                         </div>
                                     </h5>

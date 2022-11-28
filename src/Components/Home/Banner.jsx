@@ -3,7 +3,6 @@ import '../../index.css';
 import pData from '../../assets/Data/Personalinfo';
 import Typed from 'react-typed';
 import Socialicons from './Socialicons';
-import Quote from './Quote';
 import pdata from '../../assets/Data/Personalinfo';
 
 const Banner = ()=>{
@@ -32,12 +31,16 @@ const Banner = ()=>{
                     <Socialicons></Socialicons>
                 </div>
                 <div className="d-flex flex-row justify-content-center pt-2">
-                    <div className=" pt-2 text-white" id='header'>Coding Profiles:</div>
+                    <div className=" py-3 p-1 text-white" id='header'>Coding Profiles:</div>
                     {pdata[0].profiles.map((profiles)=>{
-                        return(<div className="px-2 pt-2 text-white" id='header'><a href={profiles.link} className="nav-link text-white">{profiles.name}</a></div>)
+                        return(
+                        <div className="px-2 pt-2 text-white" id='header' key={Math.random()}>
+                            <a href={profiles.link} className="nav-link text-white">
+                                <img src={profiles.src} className='img-fluid' id='cprofiles' alt="" />
+                            </a>
+                        </div>)
                     })}
-                </div>
-                <Quote></Quote>
+                </div>             
             </div>
             
     );

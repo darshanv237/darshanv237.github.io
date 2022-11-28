@@ -24,7 +24,7 @@ const Navbar = () => {
           <i className="fa-sharp fa-solid fa-house-chimney"></i>
           </HashLink>
           <button
-            className="navbar-toggler ms-auto"
+            className="navbar-toggler bg-dark ms-auto"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar"

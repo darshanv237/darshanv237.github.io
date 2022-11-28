@@ -214,6 +214,33 @@ nav
 .c_title{
   font-size: 1.5rem;
 }
+.card{
+  border: 2px solid white;
+}
+.card-header{
+  border-bottom: 2px solid white;
+}
+#cprofiles{
+  height: 2rem;
+  width: 2.5rem;
+}
+#cv_button{
+  border-radius: 2rem;
+  font-family: 'Poppins',sans-serif;
+  padding: 0rem 2rem;
+  font-weight: 400;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
+#about_image
+{
+  width: 20rem;
+  height: 15rem;
+}
 /* .nav-link:active{
   background-color: #0d6efd;
   color: #0d6efd;
