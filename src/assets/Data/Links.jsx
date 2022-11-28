@@ -3,6 +3,10 @@ const Links=[
         name:"home",
         icons:"fa-solid fa-home fa-1x p-2"
     },
+    {
+        name:"about",
+        icons:"fa-solid fa-user fa-1x p-2"
+    },
     { 
         name:"education",
         icons:"fa-solid fa-user-graduate fa-1x p-2"
