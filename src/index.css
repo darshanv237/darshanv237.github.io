@@ -241,6 +241,30 @@ nav
   width: 20rem;
   height: 15rem;
 }
+iframe
+{
+  background-color: white;
+  height: 30vw;
+}
+#cert_image
+{
+  height: 33vh;
+}
+#list_group
+{
+  list-style-type: circle;
+  border: none;
+  color: white;
+  list-style: circle;
+}
+#generic_desc
+{
+  text-align: justify;
+}
+#click_text
+{
+  color: #3EC70B;
+}
 /* .nav-link:active{
   background-color: #0d6efd;
   color: #0d6efd;

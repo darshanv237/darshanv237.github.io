@@ -2,7 +2,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';  
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import pData from '../../assets/Data/Personalinfo'
-import Items from '../../assets/Data/Items';
+
 
 const Projects=()=>{
     return(
@@ -20,9 +20,14 @@ const Projects=()=>{
                                         <span className="ed_icon p-2"><i className="fa-solid fa-lightbulb fa-1x p-2" id="ed_icons"></i></span>
                                         {projects.name}
                                     </h5>
-                                    <div className="card-body" key={projects.name+"_ach"}>
+                                    <div className="card-body" key={projects.name+"_pro"}>
                                         <div className="education-item h-100 text-white px-2" key={'ach_'+projects.name}>
-                                            <p className='px-2 text-white'><strong>{projects.description}</strong></p>
+                                        {projects.description.map((desc)=>{
+                                                    let count=1
+                                                    return(
+                                                    <p className='px-2 text-white' id='generic_desc' key={"card_para"+Math.random()}><strong>{desc}</strong></p>
+                                                    )
+                                                })}
                                             {/* <h5 className='px-2 mx-2 text-black'>{awards.de}</h5> */}
                                         </div>                                        
                                     </div>

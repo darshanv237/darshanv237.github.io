@@ -23,12 +23,12 @@ const Work=()=>{
                                     </h5>
                                     <div className="card-body" key={work+"role"}>
                                         <div className="education-item h-100 text-white px-2" key={'exp_'+work}>
-                                            <p className='px-2 text-white'><strong>{work.Company}</strong></p>
+                                            <h4 className='p-2 text-white'><strong>{work.Company}</strong></h4>
                                             <h5 className='px-2 mx-2 text-black' style={{fontFamily:'Poppins'}}>{work.experience}</h5>
                                                 {work.description.map((desc)=>{
                                                     let count=1
                                                     return(
-                                                    <p className='px-2 text-white' key={"card_para"+Math.random()}><strong>{desc}</strong></p>
+                                                    <p className='px-2 mt-2 text-white' key={"card_para"+Math.random()}><strong>{desc}</strong></p>
                                                     )
                                                 })}
                                        

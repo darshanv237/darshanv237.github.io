@@ -10,6 +10,7 @@
     "owl.carousel": "^2.3.4",
     "qrcode": "^1.5.1",
     "react": "^18.2.0",
+    "react-dependent-script": "^1.1.2",
     "react-dom": "^18.2.0",
     "react-owl-carousel": "^2.3.3",
     "react-qr-code": "^2.0.8",
@@ -22,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -15,6 +15,35 @@ const About=()=>{
                         <p className="text-white text-justify p-1">
                             <strong>{pdata[0].quote}</strong>
                         </p>
+                        <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-12">
+                                <ol class="list-group list-group-flush">
+                                    <li class="list-group-item bg-transparent text-white" id="list_group" >
+                                        <strong>Date of Birth: </strong>9886551082
+                                    </li>
+                                    <li class="list-group-item bg-transparent text-white" id="list_group">
+                                        <strong>Website: </strong>darshanv237.github.io
+                                    </li>
+                                    <li class="list-group-item bg-transparent text-white" id="list_group">
+                                        <strong>Milestone Project: </strong>Expense Tracker
+                                    </li>
+                                </ol>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-12">
+                                <ol class="list-group list-group-flush">
+                                    <li class="list-group-item bg-transparent text-white" id="list_group" >
+                                        <strong>Phone: </strong>9886551082
+                                    </li>
+                                    <li class="list-group-item bg-transparent text-white" id="list_group">
+                                        <strong>Email: </strong>darshanv237@gmail.com
+                                    </li>
+                                    <li class="list-group-item bg-transparent text-white" id="list_group">
+                                        <strong>Freelance: </strong>Available
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                                              
                         <div className="d-flex">
                             <div className="p-2">
                                 <button className="btn btn-lg form-inline text-capitalize btn-success"id='cv_button'>View CV<i className="fa-solid p-2 fa-arrow-up-right-from-square"></i></button>
