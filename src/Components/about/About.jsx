@@ -19,7 +19,7 @@ const About=()=>{
                             <div className="col-lg-6 col-md-6 col-sm-12">
                                 <ol class="list-group list-group-flush">
                                     <li class="list-group-item bg-transparent text-white" id="list_group" >
-                                        <strong>Date of Birth: </strong>9886551082
+                                        <strong>Date of Birth: </strong>23-08-1999
                                     </li>
                                     <li class="list-group-item bg-transparent text-white" id="list_group">
                                         <strong>Website: </strong>darshanv237.github.io
