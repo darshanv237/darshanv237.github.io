@@ -14,14 +14,16 @@ const Projects=()=>{
                     {pData[0].projects.map((projects)=>{
                         return(
                             <div className="col-lg-4 col-sm-6 my-2" data-aos="fade-up" key={projects.name}>
-                                <div className="card h-100  bg-dark mx-2" >
-                                    <img src={"../../assets/"+projects.image} alt="" className="card-img-top" />
+                                <div className="card h-100 bg-dark mx-2" >
                                     <h5 className="card-header p-2">
                                         <span className="ed_icon p-2"><i className="fa-solid fa-lightbulb fa-1x p-2" id="ed_icons"></i></span>
                                         {projects.name}
                                     </h5>
                                     <div className="card-body" key={projects.name+"_pro"}>
-                                        <div className="education-item h-100 text-white px-2" key={'ach_'+projects.name}>
+                                        <div className="card-img-top text-center">
+                                            <img src={projects.p_image} alt="" className="img-fluid" id="proj_image"/>
+                                        </div>
+                                        <div className="education-item text-white px-2" key={'ach_'+projects.name}>
                                         {projects.description.map((desc)=>{
                                                     let count=1
                                                     return(

@@ -18,7 +18,7 @@ const Achievements = () => {
                 data-aos="fade-up"
                 key={awards.name}
               >
-                <div className="card h-100  bg-dark mx-2">
+                <div className="card h-100 bg-dark mx-2">
                   <h5 className="card-header">
                     <div className="d-flex flex-row">
                       <div className="my-auto">

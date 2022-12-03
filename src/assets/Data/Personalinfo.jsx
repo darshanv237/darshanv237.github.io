@@ -1,5 +1,4 @@
-import Bike from '../bike.jpg'
-import Bot from '../bot.jpg'
+
 
 function importAll(r) {
     return r.keys().map(r);
@@ -76,6 +75,7 @@ const pdata = [
             ],
             projects:[
                 {
+                    p_image: require('../Skill_icons/proj_icons/bike.jpg'),
                     name:"Gobikes - BRMS",
                     description:
                     ["A Digital solution to make the experience of renting a bike easier and joyful by reducing the friction and increasing the accessibility.",
@@ -83,6 +83,7 @@ const pdata = [
                     "From this project I got exposure to learn the web technologies and implementing them in real time."],
                 },
                 {
+                    p_image: require('../Skill_icons/proj_icons/bot.jpg'),
                     name:'Newz-Bot',
                     description:[
                         "This solution was built for Delivering the news articles and reduce the friction of getting proper news.",
@@ -95,12 +96,12 @@ const pdata = [
                 {
                     name:'LeetCode',
                     link:'https://leetcode.com/darshanv237/',
-                    src: require('../leetcode.webp')
+                    src: require('../Skill_icons/profiles/leetcode.webp')
                 },
                 {
                     name:'GeeksForGeeks',
                     link:'https://auth.geeksforgeeks.org/user/darshanv237',
-                    src:require('../GeeksforGeeks.png')
+                    src:require('../Skill_icons/profiles/GeeksforGeeks.png')
                 }]
     }   
 ]

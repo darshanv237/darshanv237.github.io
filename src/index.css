@@ -9,6 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color:#212529;
   overflow-x: hidden;
+  height: 100%;
 
 }
 
@@ -155,7 +156,7 @@ nav
   font-size: 1rem;
   background: #e4edf9;
   display: inline-block;
-  padding: 0.3rem;
+  padding: 0.4rem;
   font-weight: 600;
   border-radius: 0.3rem;
   /* margin-bottom: 10px; */
@@ -257,6 +258,10 @@ iframe
   color: white;
   list-style: circle;
 }
+.list-group li{
+  font-family: 'Poppins',sans-serif;
+  font-weight: 100;
+}
 #generic_desc
 {
   text-align: justify;
@@ -264,6 +269,15 @@ iframe
 #click_text
 {
   color: #3EC70B;
+}
+#proj_image
+{
+  width: 6rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+footer{
+  position: relative;
 }
 /* .nav-link:active{
   background-color: #0d6efd;
