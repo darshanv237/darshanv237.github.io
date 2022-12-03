@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a0a267f.css",
-    "main.js": "/static/js/main.6fc12d3e.js",
+    "main.js": "/static/js/main.efa06bbd.js",
     "static/media/bot.jpg": "/static/media/bot.287bf6da146d64f6b192.jpg",
     "static/media/coder.png": "/static/media/coder.c1a6a5379f8b4e92af8b.png",
     "static/media/C_quiz.PNG": "/static/media/C_quiz.d22b729223950e3f0e8f.PNG",
@@ -15,10 +15,10 @@
     "static/media/leetcode.webp": "/static/media/leetcode.221f0899da519ccee0d5.webp",
     "index.html": "/index.html",
     "main.3a0a267f.css.map": "/static/css/main.3a0a267f.css.map",
-    "main.6fc12d3e.js.map": "/static/js/main.6fc12d3e.js.map"
+    "main.efa06bbd.js.map": "/static/js/main.efa06bbd.js.map"
   },
   "entrypoints": [
     "static/css/main.3a0a267f.css",
-    "static/js/main.6fc12d3e.js"
+    "static/js/main.efa06bbd.js"
   ]
 }
