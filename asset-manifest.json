@@ -1,29 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.27f91aa3.css",
-    "main.js": "/static/js/main.deb2ff52.js",
-    "static/media/coder.png": "/static/media/coder.374bab15117ed6ca5570.png",
+    "main.css": "/static/css/main.3a0a267f.css",
+    "main.js": "/static/js/main.6fc12d3e.js",
     "static/media/bot.jpg": "/static/media/bot.287bf6da146d64f6b192.jpg",
-    "static/media/GeeksforGeeks.png": "/static/media/GeeksforGeeks.f1afd6d2449fb233cafc.png",
-    "static/media/Darshan.jpeg": "/static/media/Darshan.6705a9be7a11c191d8a4.jpeg",
-    "static/media/mern.png": "/static/media/mern.88c11749963e60be4b49.png",
-    "static/media/java.png": "/static/media/java.f4ea765878d6e68edefd.png",
+    "static/media/coder.png": "/static/media/coder.c1a6a5379f8b4e92af8b.png",
+    "static/media/C_quiz.PNG": "/static/media/C_quiz.d22b729223950e3f0e8f.PNG",
+    "static/media/mern.png": "/static/media/mern.cf0157744f68f5eb2c8b.png",
     "static/media/bike.jpg": "/static/media/bike.d6afd09efb5833c5070e.jpg",
-    "static/media/git.png": "/static/media/git.bad2b1118eff814bb319.png",
-    "static/media/python.png": "/static/media/python.c2f539d50caa3745ce64.png",
-    "static/media/github.png": "/static/media/github.22cfdd1cba253783ce51.png",
-    "static/media/html-5.png": "/static/media/html-5.b2db3a7f6897f0a6e75c.png",
-    "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
-    "static/media/bootstrap.png": "/static/media/bootstrap.268c4375260420e8d982.png",
-    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
-    "static/media/leetcode.webp": "/static/media/leetcode.b0b6d8d41898b188dc5e.webp",
+    "static/media/Darshan.jpeg": "/static/media/Darshan.71fd2b9838c50e1e1f88.jpeg",
+    "static/media/GeeksforGeeks.png": "/static/media/GeeksforGeeks.aa93a5e337c6d452dc63.png",
+    "static/media/java.png": "/static/media/java.8f6a9ee597fed7fb5604.png",
+    "static/media/git.png": "/static/media/git.cf4e23eda9d9810237cb.png",
     "static/media/sapabap.jpg": "/static/media/sapabap.0ae8f84d091b8f2d2d63.jpg",
+    "static/media/leetcode.webp": "/static/media/leetcode.221f0899da519ccee0d5.webp",
     "index.html": "/index.html",
-    "main.27f91aa3.css.map": "/static/css/main.27f91aa3.css.map",
-    "main.deb2ff52.js.map": "/static/js/main.deb2ff52.js.map"
+    "main.3a0a267f.css.map": "/static/css/main.3a0a267f.css.map",
+    "main.6fc12d3e.js.map": "/static/js/main.6fc12d3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.27f91aa3.css",
-    "static/js/main.deb2ff52.js"
+    "static/css/main.3a0a267f.css",
+    "static/js/main.6fc12d3e.js"
   ]
 }
